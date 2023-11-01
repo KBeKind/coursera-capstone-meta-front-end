@@ -1,26 +1,19 @@
-footer {
+#testimonials-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   text-align: center;
 }
 
-#footer-logo {
-  width: 90%;
+#testimonials-header {
+  text-align: center;
 }
-
 @media screen and (max-width: 768px) {
-  footer {
+  #testimonials-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-  }
-  #footer-logo {
-    width: 70%;
-  }
-  .footer-item {
-    min-width: 15rem;
   }
 }

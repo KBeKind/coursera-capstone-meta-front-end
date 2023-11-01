@@ -1,17 +1,8 @@
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
-/* ul {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1rem;
-  text-align: center;
-} */
-
-/* #nav-logo {
-  width: 20rem;
-} */
 
 ul {
   display: flex;
@@ -35,4 +26,23 @@ a {
 
 a:hover {
   color: blue;
+}
+#hamburger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #nav-logo {
+    width: 8rem;
+    margin-right: 0;
+  }
+
+  ul {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: block;
+    margin-left: 2rem;
+  }
 }

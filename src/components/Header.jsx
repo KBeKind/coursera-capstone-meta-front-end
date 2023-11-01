@@ -3,15 +3,15 @@ import "./Header.css";
 const Header = () => {
   return (
     <header>
-      <div>
+      <div id="header-text">
         <h1>Little Lemon</h1>
-        <h3>Chicago</h3>
-        <p>descriptoinof the resfadlfiadjsfladsfladsfladskfadsl</p>
+        <h2>Chicago</h2>
+        <p>descriptoinof the resfadlfiadjs flad sfladsfladskfadsl</p>
 
-        <button>Reserve a Table</button>
+        <button id="reserve-table-button">Reserve a Table</button>
       </div>
       <div>
-        <img src="/LITTLE-LEMON-LOGO.png"></img>
+        <img id="header-image" src="/restaurant1.jpg"></img>
       </div>
     </header>
   );

@@ -1,10 +1,45 @@
 header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #495e57;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-#footer-logo {
-  width: 90%;
+#header-image {
+  width: 40vw;
+  max-width: 30rem;
+  min-width: 12rem;
+}
+#header-text {
+  margin-left: 1rem;
+}
+
+header h1 {
+  color: #f4ce14;
+}
+
+header h2 {
+  color: white;
+}
+header p {
+  color: white;
+  font-weight: 400;
+}
+#reserve-table-button {
+  padding: 0.5rem;
+  background-color: #f4ce14;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  font-size: large;
+
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  #reserve-table-button {
+    margin-bottom: 1rem;
+  }
 }

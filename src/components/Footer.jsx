@@ -7,16 +7,16 @@ const Footer = () => {
       <div>
         <img id="footer-logo" src="/LITTLE-LEMON-LOGO.png" />
       </div>
-      <div>
+      <div className="footer-item">
         <p>dormand nav</p>
       </div>
-      <div>
+      <div className="footer-item">
         <p>Contact</p>
         <p>address</p>
         <p>phone</p>
         <p>email</p>
       </div>
-      <div>
+      <div className="footer-item">
         <p>Social Media Links</p>
         <p>address</p>
         <p>phone</p>

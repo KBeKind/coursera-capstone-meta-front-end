@@ -5,6 +5,7 @@ const Nav = () => {
   return (
     <nav>
       <img id="nav-logo" src="/LITTLE-LEMON-LOGO.png" />
+      <button id="hamburger-menu">☰</button>
       <ul>
         <li>
           <a href="">Home</a>

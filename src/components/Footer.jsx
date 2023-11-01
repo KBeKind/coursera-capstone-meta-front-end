@@ -1,10 +1,11 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer>
       <div>
-        <img></img>
+        <img id="footer-logo" src="/LITTLE-LEMON-LOGO.png" />
       </div>
       <div>
         <p>dormand nav</p>

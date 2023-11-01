@@ -1,20 +1,28 @@
 import React from "react";
+import "./Nav.css";
 
 const Nav = () => {
   return (
     <nav>
+      <img id="nav-logo" src="/LITTLE-LEMON-LOGO.png" />
       <ul>
         <li>
-          <a>Home</a>
+          <a href="">Home</a>
         </li>
         <li>
-          <a>Order</a>
+          <a href="">About</a>
         </li>
         <li>
-          <a>Reservations</a>
+          <a href="">Menu</a>
         </li>
         <li>
-          <a>About</a>
+          <a href="">Reservations</a>
+        </li>
+        <li>
+          <a href="">Order Online</a>
+        </li>
+        <li>
+          <a href="">Login</a>
         </li>
       </ul>
     </nav>

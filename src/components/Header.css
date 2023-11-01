@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Markazi";
+  src: url("https://fonts.googleapis.com/css2?family=Markazi&display=swap");
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -20,10 +25,14 @@ header {
 
 header h1 {
   color: #f4ce14;
+  font-family: "Markazi", serif;
+  margin-bottom: 0;
 }
 
 header h2 {
+  margin-top: 0;
   color: white;
+  font-family: "Markazi", serif;
 }
 header p {
   color: white;
